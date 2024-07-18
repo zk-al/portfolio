@@ -1,0 +1,116 @@
+/* -------------------------------------------------------------------------- */
+/*                                  PARTIALS                                  */
+/* -------------------------------------------------------------------------- */
+
+@use 'mixins' as *;
+@use 'variables' as *;
+
+/* -------------------------------------------------------------------------- */
+/*                                 TYPOGRAPHY                                 */
+/* -------------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "Petrona";
+    src: url(../../assets/fonts/Petrona-Regular.woff) format(woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url(../../assets/fonts/Exo-SemiBold.woff) format(woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url(../../assets/fonts/Exo-Bold.woff) format(woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url(../../assets/fonts/Exo-Black.woff) format(woff);
+    font-weight: 800;
+}
+
+h1 {
+    @include m-header();
+
+    @include tablet {
+        @include d-page-header;
+    }
+}
+
+h2 {
+    @include section-header();
+}
+
+h3, h4, h5, h6 {
+    @include m-subheader();
+
+    @include tablet {
+        @include d-subheader();
+    }
+}
+
+p {
+    @include m-copy();
+
+    @include tablet {
+        @include d-copy();
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                BASE STYLING                                */
+/* -------------------------------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Petrona";
+    margin: 0;
+}
+
+.mobile {
+    display: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    @include m-copy;
+    color: black;
+}
+
+.btn {
+    font-family: "Petrona";
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    color: $off-white;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    background-position: 0.625rem;
+    background-color: $p-dark;
+    padding: 0 32px;
+    @include m-copy;
+    transition: $transition;
+
+    &:hover {
+        background-color: $p-light;
+    }
+}
