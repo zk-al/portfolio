@@ -43,61 +43,64 @@
 
 /* --------------------------------- GLOBAL --------------------------------- */
 
-@mixin section-header() {
-    font-size: 1.1rem;
-    line-height: 1.25rem;
+@mixin subheader-sm() {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 700;
-    text-transform: uppercase;
+}
+
+@mixin copy-lrg() {
+    font-family: "Petrona";
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+}
+
+@mixin copy() {
+    font-family: "Petrona";
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
 }
 
 /* -------------------------------- MOBILE ------------------------------- */
 
-@mixin m-header() {
+@mixin title-m() {
+    font-size: 2.188rem;
+    line-height: 2.813rem;
+    font-weight: 800;
+}
+
+@mixin subheader-lrg-m() {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
+    font-weight: 700;
+}
+
+@mixin subheader-med-m() {
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.125rem;
     font-weight: 700;
 }
 
-@mixin m-subheader() {
-    font-size: 0.813rem;
-    line-height: 1.125rem;
-    font-weight: 700;
-}
 
-@mixin m-copy() {
-    font-size: 0.813rem;
-    line-height: 1.125rem;
-    font-weight: 400;
-}
-
-@mixin m-btn-font() {
-    font-size: 0.625rem;
-    line-height: 1.25rem;
-    font-weight: 700;
-}
 
 /* --------------------------------- DESKTOP -------------------------------- */
 
-@mixin d-page-header() {
-    font-size: 2.063rem;
-    line-height: 2.75rem;
+@mixin title-d() {
+    font-size: 2.813rem;
+    line-height: 3.438rem;
+    font-weight: 800;
+}
+
+@mixin subheader-lrg-d() {
+    font-size: 2rem;
+    line-height: 2.5rem;
     font-weight: 700;
 }
 
-@mixin d-subheader() {
-    font-size: 0.875rem;
-    line-height: 1.375rem;
-    font-weight: 700;
-}
-
-@mixin d-copy() {
-    font-size: 0.875rem;
-    line-height: 1.375rem;
-    font-weight: 400;
-}
-
-@mixin d-btn-font() {
-    font-size: 0.75rem;
-    line-height: 1.25rem;
+@mixin subheader-med-d() {
+    font-size: 1.75rem;
+    line-height: 2.375rem;
     font-weight: 700;
 }
