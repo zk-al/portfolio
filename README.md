@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Welcome to my portfolio! 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## My name is Zack Lamarche and I am a Designer turned Developer.
 
-## Available Scripts
+Coming from a design role at a cannabis startup I wore many hats, learned integral skills on the fly, and had to come up with creative solutions under strict rules. My background in the service industry allows me to foster healthy collaborative environments even under intense pressure. Transitioning to web development allows me to engage both my creative and technical sides, refining my skills to contribute to projects with meaningful social and environmental impacts.
 
-In the project directory, you can run:
+## Skills 
 
-### `npm start`
+JavaScript, REST APIs, Axios, React, Node.js, Express.js, Knex.js,  MySQL, HTML, CSS, Sass, Git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+WebFlow, Figma, Shopify, Klaviyo Adobe Illustrator, Photoshop, 
+InDesign, After Effects, Zapier
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Education 
 
-### `npm test`
+##### MARCH 2024 - JUNE 2024
+BrainStation  |  Diploma, Web Development 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### SEPT 2020 - SEPT 2021
+BCIT/Emily Carr  |  Communication Design Certificate
 
-### `npm run build`
+## Projects 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Web Development | Brainstation Capstone - Listainable
+##### JUNE 2024, SUSTAINABILITY FOCUSED GROCERY LIST APP
+- Create a REST API using Express, Node.js, MySQL and Knex.js for CRUD operations and  refining data from the OpenFoodFacts API.
+- Create a React Front-End with Sass styling and BEM naming conventions.
+- Analyzed user data to inform mockups, features, and future implementations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Web Development | Industry Project Hackathon - Telus
+##### MAY  2024, CREATE YOUR OWN BUNDLE - WEBSITE FEATURE
+- Collaborated with 5 other Branstation students using Git Flow and Agile to create a Front-End React app to replicate a website feature.
+- Tackled a real world problem of “How might we help users create a TV package that has all their preferred channels” requiring quick adaptability and strategic problem-solving.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Web Design and Development | Woody Nelson Direct Delivery
+##### SEPT  2023, WOODY NELSON B2B SHOPIFY WEBSITE
+- Took on a leadership role on the building and development process.
+- Learned Shopify, Shopify liquid and the ins and outs of building a B2B ecommerce store in a heavily regulated industry.
+- Implemented many customizations through automations, custom Liquid, HTML and CSS code.
 
-### `npm run eject`
+### Web Design and Development | Woody Nelson Website
+##### MAR  2023, WOODY NELSON BRAND WEBSITE
+- Took a leadership role in the building and development process.
+- Learned how to build mockups in Figma and transition to Webflow.
+- Leveraged CMS systems to streamline content management and improve site functionality.
+- Implemented custom CSS and JavaScript code for customizations.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact Me 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: lamarche.zack@gmail.com
+LinkedIn: https://www.linkedin.com/in/zack-lamarche/
