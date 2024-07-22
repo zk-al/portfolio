@@ -4,6 +4,12 @@ import logo from "./assets/svg/logo.svg";
 function App() {
   return (
     <div>
+
+      /* -------------------------------------------------------------------------- */
+      /*                                   HEADER                                   */
+      /* -------------------------------------------------------------------------- */
+
+
       <header className="header">
         <img className="header__logo" src={logo} alt="" />
         <nav className="nav">
@@ -27,14 +33,18 @@ function App() {
         </nav>
       </header>
 
+      /* -------------------------------------------------------------------------- */
+      /*                                    HERO                                    */
+      /* -------------------------------------------------------------------------- */
+
       <section className="hero">
-        <div>
+        <div className="hero__bg">
           <svg>Blob 1</svg>
           <svg>Line</svg>
           <svg>Blob 2</svg>
         </div>
 
-        <div>
+        <div className="hero__text">
           <h1>Designer to Developer</h1>
           <h2>Out here tryin' to have a good time</h2>
         </div>
