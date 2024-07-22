@@ -7,6 +7,9 @@ import listainable from "./assets/images/listainable.png";
 import wndd from "./assets/images/wn-dd.png";
 import wn from "./assets/images/wn.png";
 import hifi from "./assets/images/hifi.png";
+import cassette from "./assets/gifs/lofi_cassette_comp.gif"
+import rp from "./assets/gifs/lofi_record-player_comp.gif"
+import tv from "./assets/gifs/lofi_tv_comp.gif"
 
 function App() {
   return (
@@ -215,8 +218,18 @@ function App() {
           <div className="project__img-wrap">
             <img
               className="project__img"
-              src={hifi}
-              alt="Screenshot of Listainable app"
+              src={cassette}
+              alt="GIF of an animated cassette with a colorful outline moving to music"
+            />
+            <img
+              className="project__img"
+              src={rp}
+              alt="GIF of a record spinning on a record player"
+            />
+            <img
+              className="project__img"
+              src={tv}
+              alt="GIF if a TV with colorful waves and the LoFi logo"
             />
             <a className="btn" href="#">
               See Live Site
