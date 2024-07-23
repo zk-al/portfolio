@@ -34,31 +34,38 @@
 }
 
 h1 {
-    @include m-header();
+    @include title-m();
 
     @include tablet {
-        @include d-page-header;
+        @include title-d;
     }
 }
 
 h2 {
-    @include section-header();
-}
-
-h3, h4, h5, h6 {
-    @include m-subheader();
+    @include subheader-lrg-m();
 
     @include tablet {
-        @include d-subheader();
+        @include subheader-lrg-d;
     }
+}
+
+h3 {
+    @include subheader-med-m();
+
+    @include tablet {
+        @include subheader-med-d();
+    }
+}
+h3 {
+    @include subheader-sm();
 }
 
 p {
-    @include m-copy();
+    @include copy();
+}
 
-    @include tablet {
-        @include d-copy();
-    }
+.copy-lrg {
+    @include copy-lrg();
 }
 
 /* -------------------------------------------------------------------------- */
@@ -70,7 +77,7 @@ p {
 }
 
 body {
-    font-family: "Petrona";
+    font-family: "Exo";
     margin: 0;
 }
 
@@ -89,28 +96,9 @@ li {
 a {
     display: inline-block;
     text-decoration: none;
-    @include m-copy;
     color: black;
 }
 
 .btn {
-    font-family: "Petrona";
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-    height: 40px;
-    border: 0px;
-    border-radius: 20px;
-    color: $off-white;
-    background-repeat: no-repeat;
-    background-size: 1.25rem;
-    background-position: 0.625rem;
-    background-color: $p-dark;
-    padding: 0 32px;
-    @include m-copy;
-    transition: $transition;
 
-    &:hover {
-        background-color: $p-light;
-    }
 }
