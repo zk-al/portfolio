@@ -1,23 +1,24 @@
+import "./Header.scss"
 import logo from "../../assets/svg/logo.svg";
 
 function Header() {
   return (
     <header className="header">
-      <img className="header__logo" src={logo} alt="" />
+      <img src={logo} alt="Zack Lamarche logo" />
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a  className="nav__link" href="#about">
+            <a className="anchor-link" href="#about">
               About
             </a>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#work">
+            <a className="anchor-link" href="#work">
               Work
             </a>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#contact">
+            <a className="anchor-link" href="#contact">
               Contact
             </a>
           </li>
