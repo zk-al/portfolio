@@ -2,7 +2,7 @@ import profile from "../../assets/images/profile-img.png";
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__text">
         <h2>Hey! I'm Zack 👋</h2>
         <p>

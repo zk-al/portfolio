@@ -7,17 +7,17 @@ function Header() {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a className="nav__link" href="#">
+            <a  className="nav__link" href="#about">
               About
             </a>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#">
+            <a className="nav__link" href="#work">
               Work
             </a>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#">
+            <a className="nav__link" href="#contact">
               Contact
             </a>
           </li>

@@ -8,7 +8,7 @@ import tv from "../../assets/gifs/lofi_tv_comp.gif"
 
 function Work() {
   return (
-    <section className="work">
+    <section className="work" id="work">
       <h2>My Work</h2>
 
       <div className="project">
@@ -18,7 +18,7 @@ function Work() {
           <p>
             A grocery list app to enable consumers to shop more sustainably.
             Listainable uses a REST API, Express, Node.js, MySQL and Knex.js for
-            CRUD operations and  refining data from the OpenFoodFacts API. Users
+            CRUD operations and refining data from the OpenFoodFacts API. Users
             are able to search for items and add them a their list; they are
             also given an average eco-score based on their lists content.
           </p>

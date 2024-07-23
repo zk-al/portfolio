@@ -3,7 +3,7 @@ import insta from "../../assets/svg/insta.svg";
 
 function Footer() {
   return (
-    <footer>
+    <footer id="contact">
       <h2>Wana chat?</h2>
       <div>
         <p>Email me at lamarche.zack@gmail.com</p>
