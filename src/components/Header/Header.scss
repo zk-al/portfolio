@@ -7,9 +7,11 @@
     padding: $padding-m;
     gap: $padding-m;
     background: $p-light;
+    position: relative;
 }
  
 .nav {
+    display: none;
 
     &__list {
         @include flex();

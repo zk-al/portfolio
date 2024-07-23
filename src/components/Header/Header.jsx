@@ -1,10 +1,12 @@
 import "./Header.scss"
 import logo from "../../assets/svg/logo.svg";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
 function Header() {
   return (
     <header className="header">
       <img src={logo} alt="Zack Lamarche logo" />
+      <HamburgerMenu/>
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">

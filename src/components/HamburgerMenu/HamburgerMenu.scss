@@ -1,0 +1,28 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.hamburger {
+
+    &__line {
+        height: 3px;
+        width: 40px;
+        background-color: $black;
+        border-radius: 2px;
+        margin: 8px 0;
+    }
+
+    &__nav {
+        overflow: hidden;
+        position: absolute;
+        top: 99%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: $p-light;
+    }
+
+    &__item {
+        margin: $padding-m;
+    }
+}
