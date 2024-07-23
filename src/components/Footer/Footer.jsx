@@ -1,5 +1,5 @@
-import linkedin from "./assets/svg/linkedin.svg";
-import insta from "./assets/svg/insta.svg";
+import linkedin from "../../assets/svg/linkedin.svg";
+import insta from "../../assets/svg/insta.svg";
 
 function Footer() {
   return (

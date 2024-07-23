@@ -1,10 +1,10 @@
-import listainable from "./assets/images/listainable.png";
-import wndd from "./assets/images/wn-dd.png";
-import wn from "./assets/images/wn.png";
-import hifi from "./assets/images/hifi.png";
-import cassette from "./assets/gifs/lofi_cassette_comp.gif"
-import rp from "./assets/gifs/lofi_record-player_comp.gif"
-import tv from "./assets/gifs/lofi_tv_comp.gif"
+import listainable from "../../assets/images/listainable.png";
+import wndd from "../../assets/images/wn-dd.png";
+import wn from "../../assets/images/wn.png";
+import hifi from "../../assets/images/hifi.png";
+import cassette from "../../assets/gifs/lofi_cassette_comp.gif"
+import rp from "../../assets/gifs/lofi_record-player_comp.gif"
+import tv from "../../assets/gifs/lofi_tv_comp.gif"
 
 function Work() {
   return (
