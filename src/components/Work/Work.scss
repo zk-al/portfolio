@@ -1,0 +1,56 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.work {
+  padding: $padding-m;
+
+  @include tablet {
+    padding: $padding-d;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__container {
+    @include flex();
+    flex-direction: column;
+    gap: calc($padding-d * 6);
+
+    @include desktop {
+      @include desktop-container;
+    }
+  }
+}
+
+.project {
+  @include flex($justify: space-between);
+  flex-direction: column;
+  gap: $padding-m;
+
+  @include tablet {
+    flex-direction: row;
+    gap: $padding-d;
+  }
+
+  &__text-container {
+    width: 100%;
+  }
+
+  &__details {
+    @include flex($justify: space-between);
+  }
+
+  &__img-container {
+    @include flex();
+    flex-direction: column;
+    gap: calc($padding-d * 1.5);
+    width: 100%;
+  }
+
+  &__img {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 2px solid $black;
+  }
+}
