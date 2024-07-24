@@ -1,3 +1,4 @@
+import "./Work.scss"
 import listainable from "../../assets/images/listainable.png";
 import wndd from "../../assets/images/wn-dd.png";
 import wn from "../../assets/images/wn.png";

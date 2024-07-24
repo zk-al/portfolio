@@ -3,62 +3,69 @@
 @use "../../styles/partials/variables" as *;
 
 .about {
+  margin-top: -4rem;
+  padding: $padding-m;
+  background-color: $p-light;
+
+  &__container {
     @include flex();
     flex-direction: column;
     gap: $padding-m;
-    margin-top: -4rem;
-    padding: $padding-m;
-    background-color: $p-light;
     position: relative;
     z-index: 10;
 
     @include tablet {
-        flex-direction: row;
-        padding: $padding-d $padding-d calc($padding-d * 4) $padding-d;
+      flex-direction: row;
+      padding: $padding-d $padding-d calc($padding-d * 4) $padding-d;
     }
 
-    &__text {
-        position: relative;
-        z-index: 2;
+    @include desktop {
+      @include desktop-container;
+    }
+  }
 
-        @include tablet {
-            padding-left: $padding-d;
-        }
+  &__text {
+    position: relative;
+    z-index: 2;
 
-        @include desktop {
-            padding: $padding-d;
-        }
+    @include tablet {
+      padding-left: $padding-d;
     }
 
-    &__img-wrap {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-
-        @include tablet {
-            position: static;
-        }
+    @include desktop {
+      padding: $padding-d;
     }
+  }
 
-    &__profile-img {
-        position: relative;
-        z-index: 2;
+  &__img-wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+
+    @include tablet {
+      position: static;
     }
+  }
 
-    &__blob {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        transform: rotate(-90deg);
-        height: 100%;
-        width: 100%;
+  &__profile-img {
+    position: relative;
+    z-index: 2;
+  }
 
-        @include tablet {
-            top: 10%;
-            z-index: 0;
-            transform: none;
-            height: 80%;
-        }
+  &__blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: rotate(-90deg);
+    height: 100%;
+    width: 100%;
+
+    @include tablet {
+      top: 10%;
+      z-index: 0;
+      transform: none;
+      height: 80%;
     }
+  }
 }
