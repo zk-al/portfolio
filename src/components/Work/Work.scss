@@ -39,7 +39,13 @@
   }
 
   &__details {
-    @include flex($justify: space-between);
+    @include flex($justify: space-between, $align: flex-start);
+    flex-direction: column;
+
+    @include tablet{
+        flex-direction: row;
+    }
+
   }
 
   &__img-container {
