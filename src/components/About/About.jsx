@@ -1,3 +1,4 @@
+import "./About.scss";
 import profile from "../../assets/images/profile-img.png";
 
 function About() {
@@ -15,13 +16,14 @@ function About() {
       <div className="about__img-wrap">
         <img className="about__profile-img" src={profile} alt="" />
         <svg
-          className="about__blob--mobile"
-          viewBox="0 0 262 340"
+          className="about__blob"
+          viewBox="0 0 1338 654"
           fill="none"
+          preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M181.17 293.513C193.273 357.78 93.8194 351.254 24.3525 298.601C-45.1145 245.948 64.9679 237.497 37.735 183.666C10.502 129.835 79.4206 161.216 89.97 48.9802C100.519 -63.2554 235.684 34.5265 261.757 185.035C267.509 246.845 169.067 229.245 181.17 293.513Z"
+            d="M201.368 494.601C-47.6314 562.601 -57.1314 295.101 125.777 81.3998C308.686 -132.302 380.978 155.032 583.487 52.7203C785.997 -49.591 686.73 150.777 1132.8 116.088C1578.87 81.3997 1241.37 494.601 657.43 647.824C415.869 697.601 450.368 426.601 201.368 494.601Z"
             fill="#FAF6DB"
           />
         </svg>
