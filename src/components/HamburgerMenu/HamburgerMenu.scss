@@ -3,6 +3,13 @@
 @use "../../styles/partials/variables" as *;
 
 .hamburger {
+    @include desktop {
+        display: none;
+    }
+
+    &__icon {
+        cursor: pointer;
+    }
 
     &__line {
         height: 3px;
@@ -17,12 +24,23 @@
         position: absolute;
         top: 99%;
         left: 0;
+        z-index: 1;
         width: 100%;
         text-align: center;
         background-color: $p-light;
+        max-height: 0;
+        transition: max-height $transition ease-out;
+
+        &.open {
+            max-height: 270px;
+        }
     }
 
     &__item {
-        margin: $padding-m;
+        transition: $transition;
+
+        &:hover {
+            background: $s-dark;
+        }
     }
 }
