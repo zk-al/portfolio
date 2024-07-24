@@ -7,7 +7,7 @@
     padding: $padding-m;
     background: $p-light;
     position: relative;
-    z-index: 2;
+    z-index: 99;
 
     @include tablet {
         padding: $padding-d;
