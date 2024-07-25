@@ -35,6 +35,7 @@
 
 h1 {
     @include title-m();
+    margin: $padding-m 0;
 
     @include tablet {
         @include title-d;
@@ -43,6 +44,7 @@ h1 {
 
 h2 {
     @include subheader-lrg-m();
+    margin: $padding-m 0;
 
     @include tablet {
         @include subheader-lrg-d;
@@ -51,17 +53,20 @@ h2 {
 
 h3 {
     @include subheader-med-m();
+    margin: $padding-d 0;
 
     @include tablet {
         @include subheader-med-d();
     }
 }
-h3 {
+h4 {
     @include subheader-sm();
+    margin: $padding-m 0 calc($padding-m / 2) 0 ;
 }
 
 p {
     @include copy();
+    margin: 0;
 }
 
 .copy-lrg {

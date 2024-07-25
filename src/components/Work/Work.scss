@@ -27,11 +27,10 @@
 .project {
   @include flex($justify: space-between);
   flex-direction: column;
-  gap: $padding-m;
+  gap: calc($padding-d * 2);
 
   @include tablet {
     flex-direction: row;
-    gap: $padding-d;
   }
 
   &__text-container {
