@@ -3,10 +3,10 @@
 @use "../../styles/partials/variables" as *;
 
 .work {
-  padding: $padding-m;
+  padding: $padding-m $padding-m calc($padding-m * 6);
 
   @include tablet {
-    padding: $padding-d;
+    padding: $padding-d $padding-d calc($padding-d * 6);
   }
 
   &__title {
@@ -16,10 +16,20 @@
   &__container {
     @include flex();
     flex-direction: column;
-    gap: calc($padding-d * 6);
+    gap: calc($padding-d * 4);
 
     @include desktop {
       @include desktop-container;
+    }
+  }
+
+  &__project-container {
+    @include flex();
+    flex-direction: column;
+    gap: calc($padding-d * 8);
+
+    @include tablet {
+      gap: calc($padding-d * 12);
     }
   }
 }
