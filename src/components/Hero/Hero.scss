@@ -14,19 +14,15 @@
         width: 100%;
     }
 
-    &__blob1 {
+    &__blob-left {
         position: absolute;
         top: -5%;
         left: -12%;
         z-index: 1;
 
-        @include tablet {
-
-        } 
-
     }
 
-    &__blob2 {
+    &__blob-right {
         position: absolute;
         bottom: 30%;
         right: -30%;
