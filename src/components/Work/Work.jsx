@@ -12,6 +12,8 @@ import {ReactComponent as WnddBlobDesktop} from "../../assets/svg/wndd-blob-desk
 import {ReactComponent as WnddBlobMobile} from "../../assets/svg/wndd-blob-mobile.svg"
 import {ReactComponent as WnBlobDesktop} from "../../assets/svg/wn-blob-desktop.svg"
 import {ReactComponent as WnBlobMobile} from "../../assets/svg/wn-blob-mobile.svg"
+import {ReactComponent as HifiBlobDesktop} from "../../assets/svg/hifi-blob-desktop.svg"
+import {ReactComponent as HifiBlobMobile} from "../../assets/svg/hifi-blob-mobile.svg"
 
 function Work() {
   return (
@@ -178,31 +180,8 @@ function Work() {
               </a>
             </div>
 
-            <svg
-              className="project__blob-bg"
-              viewBox="0 0 1280 559"
-              fill="none"
-              preserveAspectRatio="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M626.07 54.6965C487.091 -9.80349 276.996 -24.8035 68.7607 54.6965C-139.475 134.196 201.871 255.595 95.2548 335.696C-51.1601 445.698 65.0422 525.697 264.446 525.697C463.851 525.697 501.036 391.953 638.62 445.698C726.934 480.196 776.204 570.696 973.75 557.696C1171.29 544.696 1349.16 297.743 1253.22 138C1087.75 -137.5 765.049 119.196 626.07 54.6965Z"
-                fill="#FAF6DB"
-              />
-            </svg>
-
-            <svg
-              className="project__blob-bg--mobile"
-              viewBox="0 0 664 854"
-              fill="none"
-              preserveAspectRatio="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M64.3839 436.294C-12.3121 529.019 -30.1485 669.192 64.3838 808.124C158.916 947.057 303.269 719.314 398.516 790.448C529.318 888.134 624.444 810.605 624.444 677.565C624.444 544.525 465.41 519.716 529.318 427.922C570.339 368.999 677.951 336.127 662.493 204.327C647.035 72.5274 353.387 -46.1449 163.439 17.869C-164.154 128.27 141.08 343.569 64.3839 436.294Z"
-                fill="#FAF6DB"
-              />
-            </svg>
+            <HifiBlobDesktop className="project__blob-bg"/>
+            <HifiBlobMobile className="project__blob-bg--mobile"/>
           </div>
 
           <div className="project project--reels">
