@@ -70,9 +70,12 @@
         @include flex();
         gap: $padding-m;
     }
-
 }
 
-.linkedin {
-    color: red;
+.linkedin, .insta {
+    transition: $transition;
+
+    &:hover {
+        color: $s-dark;
+    }
 }
