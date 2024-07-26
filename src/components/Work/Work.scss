@@ -34,6 +34,12 @@
     flex-direction: row;
   }
 
+  &--reverse {
+    @include tablet {
+      flex-direction: row-reverse;
+    }
+  }
+
   &__text-container {
     position: relative;
     z-index: 2;
@@ -64,7 +70,7 @@
     border: 2px solid $black;
   }
 
-  &__listainable-bg {
+  &__blob-bg {
     display: none;
     position: absolute;
     z-index: 1;

@@ -52,7 +52,7 @@ function Work() {
           </div>
 
           <svg
-            className="project__listainable-bg"
+            className="project__blob-bg"
             viewBox="0 0 1280 600"
             fill="none"
             preserveAspectRatio="none"
@@ -65,7 +65,7 @@ function Work() {
           </svg>
 
           <svg
-            className="project__listainable-bg--mobile"
+            className="project__blob-bg--mobile"
             viewBox="0 0 300 884"
             fill="none"
             preserveAspectRatio="none"
@@ -78,7 +78,7 @@ function Work() {
           </svg>
         </div>
 
-        <div className="project">
+        <div className="project project--reverse">
           <div className="project__text-container">
             <h3>Woody Nelson Direct Delivery</h3>
             <h4>Summary</h4>
@@ -112,6 +112,32 @@ function Work() {
               See Live Site
             </a>
           </div>
+
+          <svg
+            className="project__blob-bg"
+            viewBox="0 0 1280 616"
+            fill="none"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M673.678 144.196C508.023 174.196 528.904 -68.208 252.811 19.2921C-23.2809 106.792 -38.1283 442.196 43.0752 546.696C124.279 651.196 328.447 533.196 506.167 598.196C696.268 667.724 751.169 504.696 906.152 546.696C1061.13 588.696 1226.79 563.696 1270.87 400.696C1314.95 237.696 1192.92 53.1959 1043.5 34.1959C894.088 15.1959 839.333 114.196 673.678 144.196Z"
+              fill="#FAF6DB"
+            />
+          </svg>
+
+          <svg
+            className="project__blob-bg--mobile"
+            viewBox="0 0 296 926"
+            fill="none"
+            preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M254.161 377.61C296.549 284.04 288.452 114.831 247.017 51.2359C205.581 -12.3588 90.8001 -27.7656 39.1248 69.166C-12.5506 166.098 -3.4466 453.094 17.4544 500.035C46.2688 564.75 58.89 623.301 17.4544 808.199C-23.9811 993.097 254.161 937.068 288.452 799.795C322.744 662.522 211.773 471.18 254.161 377.61Z"
+              fill="#FAF6DB"
+            />
+          </svg>
         </div>
 
         <div className="project">
