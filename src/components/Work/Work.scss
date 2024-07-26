@@ -65,11 +65,29 @@
   }
 
   &__listainable-bg {
+    display: none;
     position: absolute;
+    z-index: 1;
     top: -25%;
     left: -5%;
-    z-index: 1;
     width: 110%;
     height: 140%;
+    transform: none;
+
+    @include tablet {
+      display: block;
+    }
+
+    &--mobile {
+      position: absolute;
+      top: -5%;
+      left: -15%;
+      width: 140%;
+      height: 110%;
+
+      @include tablet {
+        display: none;
+      }
+    }
   }
 }
