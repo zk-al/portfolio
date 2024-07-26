@@ -6,7 +6,8 @@ import hifi from "../../assets/images/hifi.png";
 import cassette from "../../assets/gifs/lofi_cassette_comp.gif";
 import rp from "../../assets/gifs/lofi_record-player_comp.gif";
 import tv from "../../assets/gifs/lofi_tv_comp.gif";
-import { useEffect, useState } from "react";
+import {ReactComponent as ListainableBlobDesktop} from "../../assets/svg/listainable-blob-desktop.svg"
+import {ReactComponent as ListainableBlobMobile} from "../../assets/svg/listainable-blob-mobile.svg"
 
 function Work() {
   return (
@@ -53,31 +54,9 @@ function Work() {
               </a>
             </div>
 
-            <svg
-              className="project__blob-bg"
-              viewBox="0 0 1280 600"
-              fill="none"
-              preserveAspectRatio="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1188.16 202.615C1056.35 172.115 948.094 -51.8846 672.08 11.1154C603.078 38.1154 672.08 102.115 593.573 160.615C515.065 219.115 391.108 64.1155 210.956 48.6155C30.803 33.1155 -54.315 434.115 37.0009 534.615C128.317 635.115 408.462 559.615 529.115 517.615C649.768 475.615 867.934 601.115 1097.26 599.115C1326.58 597.115 1319.97 233.115 1188.16 202.615Z"
-                fill="#FAF6DB"
-              />
-            </svg>
-
-            <svg
-              className="project__blob-bg--mobile"
-              viewBox="0 0 300 884"
-              fill="none"
-              preserveAspectRatio="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M198.547 820.573C213.819 729.542 325.98 654.778 294.434 464.156C280.915 416.501 248.869 464.156 219.577 409.936C190.285 355.717 267.896 270.109 275.657 145.691C283.418 21.2735 82.6304 -37.5112 32.3082 25.5538C-18.014 88.6188 19.7902 282.094 40.8204 365.42C61.8506 448.746 -0.989597 599.417 0.0118362 757.793C1.01327 916.169 183.275 911.603 198.547 820.573Z"
-                fill="#FAF6DB"
-              />
-            </svg>
+            <ListainableBlobDesktop className="project__blob-bg"/>
+            <ListainableBlobMobile className="project__blob-bg--mobile"/>
+            
           </div>
 
           <div className="project project--reverse">
