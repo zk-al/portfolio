@@ -14,6 +14,8 @@ import {ReactComponent as WnBlobDesktop} from "../../assets/svg/wn-blob-desktop.
 import {ReactComponent as WnBlobMobile} from "../../assets/svg/wn-blob-mobile.svg"
 import {ReactComponent as HifiBlobDesktop} from "../../assets/svg/hifi-blob-desktop.svg"
 import {ReactComponent as HifiBlobMobile} from "../../assets/svg/hifi-blob-mobile.svg"
+import {ReactComponent as LofiReelsBlobDesktop} from "../../assets/svg/lofi-reels-blob-desktop.svg"
+import {ReactComponent as LofiReelsBlobMobile} from "../../assets/svg/lofi-reels-blob-mobile.svg"
 
 function Work() {
   return (
@@ -228,32 +230,8 @@ function Work() {
                 See Live Site
               </a>
             </div>
-
-            <svg
-              className="project__blob-bg"
-              viewBox="0 0 1280 637"
-              fill="none"
-              preserveAspectRatio="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M548.285 134.5C451.1 155.819 278.469 22.2234 136.266 87C-5.93628 151.777 -61.583 421.5 91.3923 519C244.368 616.5 397.335 446.542 523.484 481.154C634.082 511.5 659.956 621.149 845.227 636.072C1030.5 650.995 1201.71 482.22 1256.71 396.234C1311.71 310.248 1281.94 35.9438 1028.85 5.03129C775.752 -25.8812 645.469 113.181 548.285 134.5Z"
-                fill="#FAF6DB"
-              />
-            </svg>
-
-            <svg
-              className="project__blob-bg--mobile"
-              viewBox="0 0 664 952"
-              fill="none"
-              preserveAspectRatio="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M139.733 544.214C161.975 616.495 22.5926 744.89 90.1752 850.653C157.758 956.416 439.165 997.803 540.888 884.028C642.612 770.253 465.291 656.483 501.403 562.66C533.063 480.403 647.462 461.159 663.032 323.363C678.602 185.568 502.516 58.2303 412.804 17.3222C323.093 -23.5858 36.9073 -1.4411 4.65575 186.797C-27.5958 375.036 117.49 471.933 139.733 544.214Z"
-                fill="#FAF6DB"
-              />
-            </svg>
+            <LofiReelsBlobDesktop className="project__blob-bg"/>
+            <LofiReelsBlobMobile className="project__blob-bg--mobile"/>
           </div>
         </div>
       </div>
