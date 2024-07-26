@@ -48,7 +48,7 @@ function Hero() {
 
       <div className="hero__text">
         <h1>Designer to Developer</h1>
-        <h2>Out here tryin' to have a good time</h2>
+        <h2>Out here tryin' to make the world a better place</h2>
       </div>
     </section>
   );

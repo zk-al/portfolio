@@ -28,11 +28,11 @@ function Work() {
                 lists content.
               </p>
               <div className="project__details">
-                <div>
+                <div className="project__details-container">
                   <h4>Role</h4>
                   <p>Web Developer</p>
                 </div>
-                <div>
+                <div className="project__details-container">
                   <h4>Tools</h4>
                   <p>
                     React, Sass, Express, MySQL, Node.js, Knex.js, Express,
@@ -93,11 +93,11 @@ function Work() {
                 building and customization on Shopify.
               </p>
               <div className="project__details">
-                <div>
+                <div className="project__details-container">
                   <h4>Role</h4>
                   <p>Web Designer and Front-End Developer</p>
                 </div>
-                <div>
+                <div className="project__details-container">
                   <h4>Tools</h4>
                   <p>Shopify, Figma, Illustrator, Photoshop</p>
                 </div>
@@ -154,11 +154,11 @@ function Work() {
                 Figma and built the website in Webflow myself.
               </p>
               <div className="project__details">
-                <div>
+                <div className="project__details-container">
                   <h4>Role</h4>
                   <p>Webflow Developer</p>
                 </div>
-                <div>
+                <div className="project__details-container">
                   <h4>Tools</h4>
                   <p>
                     Figma, Webflow, Illustrator, Photoshop, Adobe After Effects
@@ -217,11 +217,11 @@ function Work() {
                 on Webflow myself.
               </p>
               <div className="project__details">
-                <div>
+                <div className="project__details-container">
                   <h4>Role</h4>
                   <p>Webflow Developer</p>
                 </div>
-                <div>
+                <div className="project__details-container">
                   <h4>Tools</h4>
                   <p>
                     Figma, Webflow, Illustrator, Photoshop, Adobe After Effects
@@ -280,11 +280,11 @@ function Work() {
                 consumers.
               </p>
               <div className="project__details">
-                <div>
+                <div className="project__details-container">
                   <h4>Role</h4>
                   <p>Social Media Manager, Animator</p>
                 </div>
-                <div>
+                <div className="project__details-container">
                   <h4>Tools</h4>
                   <p>After Effects, Illustrator, Loomly, Buffer</p>
                 </div>

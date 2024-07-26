@@ -63,9 +63,14 @@
   &__details {
     @include flex($justify: space-between, $align: flex-start);
     flex-direction: column;
+    gap: $padding-m;
 
     @include tablet{
         flex-direction: row;
+    }
+
+    &__-container {
+      width: 100%;
     }
 
   }
