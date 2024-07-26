@@ -1,6 +1,7 @@
 import "./Footer.scss";
 import linkedin from "../../assets/svg/linkedin.svg";
 import insta from "../../assets/svg/insta.svg";
+import {ReactComponent as LinkedIn} from "../../assets/svg/linkedin.svg"
 
 function Footer() {
   return (
@@ -29,7 +30,8 @@ function Footer() {
           <p className="footer__subhead">Or find me on socials</p>
 
           <div className="footer__icons">
-            <img src={linkedin} alt="LinkedIn icon" />
+            <LinkedIn className="linkedin"/>
+            {/* <img src={linkedin} alt="LinkedIn icon" /> */}
             <img src={insta} alt="Instagram Icon" />
           </div>
         </div>
