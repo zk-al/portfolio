@@ -266,7 +266,7 @@ function Work() {
           </svg>
         </div>
 
-        <div className="project">
+        <div className="project project--reels">
           <div className="project__text-container">
             <h3>LoFi Instagram Reels</h3>
             <h4>Summary</h4>
@@ -290,17 +290,18 @@ function Work() {
 
           <div className="project__img-container">
             <img
-              className="project__img"
+              className="project__img project__img--cassette"
               src={cassette}
               alt="GIF of an animated cassette with a colorful outline moving to music"
             />
+
             <img
-              className="project__img"
+              className="project__img project__img--rp"
               src={rp}
               alt="GIF of a record spinning on a record player"
             />
             <img
-              className="project__img"
+              className="project__img project__img--tv"
               src={tv}
               alt="GIF if a TV with colorful waves and the LoFi logo"
             />
