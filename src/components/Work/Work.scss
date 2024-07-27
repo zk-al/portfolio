@@ -65,14 +65,13 @@
     flex-direction: column;
     gap: $padding-m;
 
-    @include tablet{
-        flex-direction: row;
+    @include tablet {
+      flex-direction: row;
     }
 
-    &__-container {
+    &-container {
       width: 100%;
     }
-
   }
 
   &__img-container {
@@ -112,26 +111,38 @@
     }
   }
 
-  &__blob-bg {
+  &__blob {
     display: none;
     position: absolute;
     z-index: 1;
-    top: -25%;
+    top: -30%;
     left: -5%;
     width: 110%;
-    height: 140%;
+    height: 150%;
     transform: none;
+
+    &--wndd {
+      @include tablet {
+        top: -35%;
+        height: 165%;
+      }
+    }
 
     @include tablet {
       display: block;
     }
 
-    &--mobile {
+    &-mobile {
       position: absolute;
       top: -5%;
       left: -15%;
       width: 140%;
       height: 110%;
+
+      &--wndd {
+        top: -10%;
+        height: 115%;
+      }
 
       @include tablet {
         display: none;

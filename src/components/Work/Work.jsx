@@ -62,9 +62,8 @@ function Work() {
               </a>
             </div>
 
-            <ListainableBlobDesktop className="project__blob-bg"/>
-            <ListainableBlobMobile className="project__blob-bg--mobile"/>
-            
+            <ListainableBlobDesktop className="project__blob"/>
+            <ListainableBlobMobile className="project__blob-mobile"/>
           </div>
 
           <div className="project project--reverse">
@@ -102,8 +101,8 @@ function Work() {
               </a>
             </div>
 
-            <WnddBlobDesktop className="project__blob-bg"/>
-            <WnddBlobMobile className="project__blob-bg--mobile"/>
+            <WnddBlobDesktop className="project__blob project__blob--wndd"/>
+            <WnddBlobMobile className="project__blob-mobile project__blob-mobile--wndd"/>
           </div>
 
           <div className="project">
@@ -142,8 +141,8 @@ function Work() {
               </a>
             </div>
 
-            <WnBlobDesktop className="project__blob-bg"/>
-            <WnBlobMobile className="project__blob-bg--mobile"/>
+            <WnBlobDesktop className="project__blob"/>
+            <WnBlobMobile className="project__blob-mobile"/>
           </div>
 
           <div className="project project--reverse">
@@ -182,8 +181,8 @@ function Work() {
               </a>
             </div>
 
-            <HifiBlobDesktop className="project__blob-bg"/>
-            <HifiBlobMobile className="project__blob-bg--mobile"/>
+            <HifiBlobDesktop className="project__blob"/>
+            <HifiBlobMobile className="project__blob-mobile"/>
           </div>
 
           <div className="project project--reels">
@@ -230,8 +229,8 @@ function Work() {
                 See Live Site
               </a>
             </div>
-            <LofiReelsBlobDesktop className="project__blob-bg"/>
-            <LofiReelsBlobMobile className="project__blob-bg--mobile"/>
+            <LofiReelsBlobDesktop className="project__blob"/>
+            <LofiReelsBlobMobile className="project__blob-mobile"/>
           </div>
         </div>
       </div>
