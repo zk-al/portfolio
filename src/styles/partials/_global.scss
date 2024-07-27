@@ -122,8 +122,13 @@ a {
 .btn {
     @include flex();
     background-color: $p-light;
+    transition: $transition;
     padding: calc($padding-m / 1.5);
     width: 100%;
     max-width: 12.5rem;
     border-radius: 0.625rem;
+
+    &:hover {
+        background-color: $s-dark;
+    }
 }
