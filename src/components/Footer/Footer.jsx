@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer__container">
         <h2>Wana chat?</h2>
         <div className="footer__contact">
-          <a href="mailto:lamarche.zack@gmail.com" className="footer__subhead footer__subhead--contact">
+          <a href="mailto:lamarche.zack@gmail.com" className="footer__subhead footer__subhead--contact" target="_blank">
             Email me at lamarche.zack@gmail.com
           </a>
           <svg
@@ -29,10 +29,10 @@ function Footer() {
           <p className="footer__subhead">Or find me on socials</p>
 
           <div className="footer__icons-container">
-            <a href="https://www.linkedin.com/in/zack-lamarche/" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/zack-lamarche/" target="_blank" rel="noopener noreferrer">
               <LinkedIn className="footer__icons" />
             </a>
-            <a href="https://github.com/zk-al" rel="noopener noreferrer">
+            <a href="https://github.com/zk-al" target="_blank" rel="noopener noreferrer">
               <Github className="footer__icons" />
             </a>
           </div>
