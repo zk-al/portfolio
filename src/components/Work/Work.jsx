@@ -181,8 +181,8 @@ function Work() {
               </a>
             </div>
 
-            <HifiBlobDesktop className="project__blob"/>
-            <HifiBlobMobile className="project__blob-mobile"/>
+            <HifiBlobDesktop className="project__blob project__blob--hifi"/>
+            <HifiBlobMobile className="project__blob-mobile project__blob-mobile--hifi"/>
           </div>
 
           <div className="project project--reels">

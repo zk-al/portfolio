@@ -134,6 +134,13 @@
       }
     }
 
+    &--hifi {
+      @include tablet {
+        top: -25%;
+        height: 155%;
+      }
+    }
+
     @include tablet {
       display: block;
     }
@@ -151,8 +158,15 @@
       }
 
       &--wn {
-        
+        top: -10%;
+        height: 115%;
       }
+
+      &--hifi {
+        top: -7%;
+        height: 112%;
+      }
+
 
       @include tablet {
         display: none;
