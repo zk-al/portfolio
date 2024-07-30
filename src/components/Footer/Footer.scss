@@ -3,79 +3,78 @@
 @use "../../styles/partials/variables" as *;
 
 .footer {
-    background-color: $p-light;
-    padding: $padding-m;
-    text-align: center;
+  background-color: $p-light;
+  padding: $padding-m;
+  text-align: center;
 
-    @include tablet   {
-        padding: $padding-d;
+  @include tablet {
+    padding: $padding-d;
+  }
+
+  &__container {
+    @include desktop-container();
+    @include flex();
+    flex-direction: column;
+    gap: $padding-m;
+
+    @include tablet {
+      gap: $padding-d;
     }
+  }
 
-    &__container {
-        @include desktop-container();
-        @include flex();
-        flex-direction: column;
-        gap: $padding-m;
+  &__contact {
+    position: relative;
+    width: 100%;
+  }
 
-        @include tablet {
-            gap: $padding-d;
-        }
+  &__subhead {
+    @include subheader-sm();
+    font-family: "Exo";
+
+    &--contact {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 3rem;
+
+      @include tablet {
+        height: 2rem;
+      }
     }
+  }
 
-    &__contact {
-        position: relative;
-        width: 100%;
+  &__blob {
+    height: 13rem;
+    width: 100%;
+
+    @include tablet {
+      height: 10rem;
     }
+  }
 
-    &__subhead {
-        @include subheader-sm();
-        font-family: "Exo";
+  &__socials {
+    @include flex();
+    flex-direction: column;
+    gap: $padding-m;
 
-
-        &--contact {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            height: 3rem;
-
-            @include tablet {
-                height: 2rem;
-            }
-        }
+    @include tablet {
+      gap: $padding-d;
     }
+  }
 
-    &__blob {
-        height: 13rem;
-        width: 100%;
+  &__icons-container {
+    @include flex();
+    gap: $padding-m;
+  }
 
-        @include tablet {
-            height: 10rem
-        }
-    }
-
-    &__socials {
-        @include flex();
-        flex-direction: column;
-        gap: $padding-m;
-
-        @include tablet {
-            gap: $padding-d;
-        }
-    }
-
-    &__icons {
-        @include flex();
-        gap: $padding-m;
-    }
-}
-
-.linkedin, .insta {
+  &__icons {
     transition: $transition;
 
     &:hover {
-        color: $s-dark;
+      color: $s-dark;
     }
+  }
 }

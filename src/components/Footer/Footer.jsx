@@ -1,6 +1,6 @@
 import "./Footer.scss";
-import {ReactComponent as LinkedIn} from "../../assets/svg/linkedin.svg"
-import {ReactComponent as Insta} from "../../assets/svg/insta.svg"
+import { ReactComponent as LinkedIn } from "../../assets/svg/linkedin.svg";
+import {ReactComponent as Github} from "../../assets/svg/github.svg"
 
 function Footer() {
   return (
@@ -28,9 +28,13 @@ function Footer() {
         <div className="footer__socials">
           <p className="footer__subhead">Or find me on socials</p>
 
-          <div className="footer__icons">
-            <LinkedIn className="linkedin"/>
-            <Insta className="insta"/>
+          <div className="footer__icons-container">
+            <a href="https://www.linkedin.com/in/zack-lamarche/" rel="noopener noreferrer">
+              <LinkedIn className="footer__icons" />
+            </a>
+            <a href="https://github.com/zk-al" rel="noopener noreferrer">
+              <Github className="footer__icons" />
+            </a>
           </div>
         </div>
       </div>
