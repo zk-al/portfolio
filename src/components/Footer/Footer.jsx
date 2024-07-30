@@ -8,9 +8,9 @@ function Footer() {
       <div className="footer__container">
         <h2>Wana chat?</h2>
         <div className="footer__contact">
-          <p className="footer__subhead footer__subhead--contact">
+          <a href="mailto:lamarche.zack@gmail.com" className="footer__subhead footer__subhead--contact">
             Email me at lamarche.zack@gmail.com
-          </p>
+          </a>
           <svg
             className="footer__blob"
             viewBox="0 0 300 157"
