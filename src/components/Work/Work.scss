@@ -3,10 +3,10 @@
 @use "../../styles/partials/variables" as *;
 
 .work {
-  padding: $padding-m $padding-m calc($padding-m * 6);
+  padding: $padding-m $padding-m calc($padding-m * 14);
 
   @include tablet {
-    padding: $padding-d $padding-d calc($padding-d * 6);
+    padding: $padding-d $padding-d calc($padding-d * 8);
   }
 
   &__title {
@@ -20,6 +20,7 @@
 
     @include desktop {
       @include desktop-container;
+      gap: calc($padding-d * 6);
     }
   }
 
@@ -29,7 +30,7 @@
     gap: calc($padding-d * 8);
 
     @include tablet {
-      gap: calc($padding-d * 12);
+      gap: calc($padding-d * 14);
     }
   }
 }
@@ -84,7 +85,7 @@
     z-index: 2;
 
     &--reels {
-      top: 7rem;
+      top: 9rem;
       
       @include tablet {
         top: 6rem;
@@ -189,6 +190,11 @@
       &--hifi {
         top: -7%;
         height: 112%;
+      }
+
+      &--lofi {
+        top: -5%;
+        height: 120%;
       }
 
 
