@@ -208,7 +208,7 @@ function Work() {
               </div>
             </div>
 
-            <div className="project__img-container project__img-container--lofi">
+            <div className="project__img-container project__img-container--reels">
               <img
                 className="project__img project__img--cassette"
                 src={cassette}
