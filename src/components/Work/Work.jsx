@@ -141,8 +141,8 @@ function Work() {
               </a>
             </div>
 
-            <WnBlobDesktop className="project__blob"/>
-            <WnBlobMobile className="project__blob-mobile"/>
+            <WnBlobDesktop className="project__blob project__blob--wn"/>
+            <WnBlobMobile className="project__blob-mobile project__blob-mobile--wn"/>
           </div>
 
           <div className="project project--reverse">
