@@ -1,21 +1,4 @@
 import "./Work.scss";
-import listainable from "../../assets/images/listainable.png";
-import wndd from "../../assets/images/wn-dd.png";
-import wn from "../../assets/images/wn.png";
-import hifi from "../../assets/images/hifi.png";
-import cassette from "../../assets/gifs/lofi_cassette_comp.gif";
-import rp from "../../assets/gifs/lofi_record-player_comp.gif";
-import tv from "../../assets/gifs/lofi_tv_comp.gif";
-import {ReactComponent as ListainableBlobDesktop} from "../../assets/svg/listainable-blob-desktop.svg"
-import {ReactComponent as ListainableBlobMobile} from "../../assets/svg/listainable-blob-mobile.svg"
-import {ReactComponent as WnddBlobDesktop} from "../../assets/svg/wndd-blob-desktop.svg"
-import {ReactComponent as WnddBlobMobile} from "../../assets/svg/wndd-blob-mobile.svg"
-import {ReactComponent as WnBlobDesktop} from "../../assets/svg/wn-blob-desktop.svg"
-import {ReactComponent as WnBlobMobile} from "../../assets/svg/wn-blob-mobile.svg"
-import {ReactComponent as HifiBlobDesktop} from "../../assets/svg/hifi-blob-desktop.svg"
-import {ReactComponent as HifiBlobMobile} from "../../assets/svg/hifi-blob-mobile.svg"
-import {ReactComponent as LofiReelsBlobDesktop} from "../../assets/svg/lofi-reels-blob-desktop.svg"
-import {ReactComponent as LofiReelsBlobMobile} from "../../assets/svg/lofi-reels-blob-mobile.svg"
 
 function Work() {
   return (

@@ -1,0 +1,95 @@
+import listainable from "./images/listainable.png";
+import wndd from "./images/wn-dd.png";
+import wn from "./images/wn.png";
+import hifi from "./images/hifi.png";
+import cassette from "./gifs/lofi_cassette_comp.gif";
+import rp from "./gifs/lofi_record-player_comp.gif";
+import tv from "./gifs/lofi_tv_comp.gif";
+
+import { ReactComponent as ListainableBlobDesktop } from "./svg/listainable-blob-desktop.svg";
+import { ReactComponent as ListainableBlobMobile } from "./svg/listainable-blob-mobile.svg";
+import { ReactComponent as WnddBlobDesktop } from "./svg/wndd-blob-desktop.svg";
+import { ReactComponent as WnddBlobMobile } from "./svg/wndd-blob-mobile.svg";
+import { ReactComponent as WnBlobDesktop } from "./svg/wn-blob-desktop.svg";
+import { ReactComponent as WnBlobMobile } from "./svg/wn-blob-mobile.svg";
+import { ReactComponent as HifiBlobDesktop } from "./svg/hifi-blob-desktop.svg";
+import { ReactComponent as HifiBlobMobile } from "./svg/hifi-blob-mobile.svg";
+import { ReactComponent as LofiReelsBlobDesktop } from "./svg/lofi-reels-blob-desktop.svg";
+import { ReactComponent as LofiReelsBlobMobile } from "./svg/lofi-reels-blob-mobile.svg";
+
+const projects = [
+  {
+    title: 'Listainable',
+    summary: 'A grocery list app to enable consumers to shop more sustainably. Listainable uses a REST API, Express, Node.js, MySQL and Knex.js for CRUD operations and refining data from the OpenFoodFacts API. Users are able to search for items and add them a their list; they are also given an average eco-score based on their lists content.',
+    role: 'Web Developer',
+    tools: 'React, Sass, Express, MySQL, Node.js, Knex.js, Express, Fuse.js, Axios, Git',
+    image: listainable,
+    imageAlt: 'Screenshot of Listainable app',
+    link: '#',
+    blobs: {
+      desktop: ListainableBlobDesktop,
+      mobile: ListainableBlobMobile,
+    },
+  },
+  {
+    title: 'Woody Nelson Direct Delivery',
+    summary: 'As part of building our brand and expanding our sales channels we were tasked with creating a direct delivery website for wholesalers to buy our products from across Canada. I was tasked with leading this project. I worked with our Senior Designer and Graphic Designer to layout the website and from there I led the building and customization on Shopify.',
+    role: 'Web Designer and Front-End Developer',
+    tools: 'Shopify, Figma, Illustrator, Photoshop',
+    image: wndd,
+    imageAlt: "Screenshot of Woody Nelson's Direct Delivery website",
+    link: 'https://shop.woodynelson.ca/',
+    blobs: {
+      desktop: WnddBlobDesktop,
+      mobile: WnddBlobMobile,
+    },
+    isReversed: true,
+  },
+  {
+    title: 'Woody Nelson Website',
+    summary: 'Woody Nelson is a Licensed Producer of Cannabis based in Nelson BC. As part of my time as Junior Marketer I was tasked to build a website for our brand launch. I worked in collaboration with the Senior design and Illustrator to create the layouts in Figma and built the website in Webflow myself.',
+    role: 'Webflow Developer',
+    tools: 'Figma, Webflow, Illustrator, Photoshop, Adobe After Effects',
+    image: wn,
+    imageAlt: "Screenshot of Woody Nelson's brand website",
+    link: 'https://www.woodynelson.ca/',
+    blobs: {
+      desktop: WnBlobDesktop,
+      mobile: WnBlobMobile,
+    },
+  },
+  {
+    title: 'High Fidelity Website',
+    summary: 'High Fidelity Solventless is a licensed producer of solventless cannabis extracts. As they refined their product they needed a website for their brand launch. I worked with our Senior Designer and graphic designer on layout, and built the website on Webflow myself.',
+    role: 'Webflow Developer',
+    tools: 'Figma, Webflow, Illustrator, Photoshop, Adobe After Effects',
+    image: hifi,
+    imageAlt: "Screenshot of High Fidelity Solventless brand website",
+    link: 'https://www.highfidelitysolventless.com/',
+    blobs: {
+      desktop: HifiBlobDesktop,
+      mobile: HifiBlobMobile,
+    },
+    isReversed: true,
+  },
+  {
+    title: 'LoFi Instagram Reels',
+    summary: 'While working for Woody Nelson I was Social Media manager for them and their subsidiaries, LoFi being one of them. I was tasked with creating Reels that encapsulated the brand, and connected with both the LoFi music and art audience and the CBD consumers.',
+    role: 'Social Media Manager, Animator',
+    tools: 'After Effects, Illustrator, Loomly, Buffer',
+    image: cassette,
+    imageAlt: 'GIF of an animated cassette with a colorful outline moving to music',
+    additionalImages: [
+      { src: rp, alt: 'GIF of a record spinning on a record player' },
+      { src: tv, alt: 'GIF if a TV with colorful waves and the LoFi logo' },
+    ],
+    link: 'https://www.instagram.com/reel/CbJNEWlPEAW/',
+    blobs: {
+      desktop: LofiReelsBlobDesktop,
+      mobile: LofiReelsBlobMobile,
+    },
+    isReels: true,
+  },
+];
+
+export default projects;
