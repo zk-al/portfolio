@@ -1,0 +1,174 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+
+.project {
+    @include flex($justify: space-between);
+    flex-direction: column;
+    gap: calc($padding-d * 2);
+    position: relative;
+  
+    @include tablet {
+      flex-direction: row;
+    }
+  
+    &--reverse {
+      @include tablet {
+        flex-direction: row-reverse;
+      }
+    }
+  
+    &--reels {
+      padding: calc($padding-d * 2) 0;
+      align-items: flex-start;
+    }
+  
+    &__text-container {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+    }
+  
+    &__details {
+      @include flex($justify: space-between, $align: flex-start);
+      flex-direction: column;
+      gap: $padding-m;
+  
+      @include tablet {
+        flex-direction: row;
+      }
+  
+      &-container {
+        width: 100%;
+      }
+    }
+  
+    &__img-container {
+      @include flex();
+      flex-direction: column;
+      gap: calc($padding-d * 1.5);
+      width: 100%;
+      position: relative;
+      z-index: 2;
+  
+      &--reels {
+        top: 9rem;
+        
+        @include tablet {
+          top: 6rem;
+        }
+        
+        @include desktop {
+          top: 2rem;
+        }
+      }
+    }
+  
+    &__img {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border: 2px solid $black;
+  
+      &--rp {
+        position: absolute;
+        top: -42%;
+        left: 47%;
+        z-index: 2;
+        width: 45%;
+      }
+  
+      &--cassette {
+        position: relative;
+        z-index: 3;
+        width: 55%;
+        margin-right: auto;
+      }
+  
+      &--tv {
+        position: absolute;
+        bottom: 19%;
+        right: 0;
+        z-index: 1;
+        width: 40%;
+      }
+    }
+  
+    &__blob {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      top: -30%;
+      left: -5%;
+      width: 110%;
+      height: 150%;
+      transform: none;
+  
+      &--wndd {
+        @include tablet {
+          top: -35%;
+          height: 165%;
+        }
+      }
+  
+      &--wn {
+        @include tablet {
+          top: -25%;
+        }
+      }
+  
+      &--hifi {
+        @include tablet {
+          top: -25%;
+          height: 155%;
+        }
+      }
+  
+      &--reels {
+        @include tablet {
+          top: -15%;
+          height: 140%;
+        }
+  
+        @include desktop {
+          top: -25%;
+        }
+      }
+  
+      @include tablet {
+        display: block;
+      }
+  
+      &-mobile {
+        position: absolute;
+        top: -5%;
+        left: -15%;
+        width: 140%;
+        height: 110%;
+  
+        &--wndd {
+          top: -10%;
+          height: 115%;
+        }
+  
+        &--wn {
+          top: -10%;
+          height: 115%;
+        }
+  
+        &--hifi {
+          top: -7%;
+          height: 112%;
+        }
+  
+        &--reels {
+          top: -5%;
+          height: 120%;
+        }
+  
+  
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+  }

@@ -1,12 +1,24 @@
 import "./Work.scss";
+import ProjectList from "../ProjectList/ProjectList"
 
 function Work() {
   return (
     <section className="work" id="work">
       <div className="work__container">
         <h2 className="work__title">My Work</h2>
-
         <div className="work__project-container">
+          <ProjectList />
+        </div>
+        
+      </div>
+    </section>
+  );
+}
+
+export default Work;
+
+
+{/* <div className="work__project-container">
           <div className="project">
             <div className="project__text-container">
               <h3>Listainable</h3>
@@ -215,10 +227,4 @@ function Work() {
             <LofiReelsBlobDesktop className="project__blob project__blob--lofi"/>
             <LofiReelsBlobMobile className="project__blob-mobile project__blob-mobile--lofi"/>
           </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export default Work;
+        </div> */}

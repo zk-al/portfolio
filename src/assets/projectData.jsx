@@ -43,6 +43,10 @@ const projects = [
       desktop: WnddBlobDesktop,
       mobile: WnddBlobMobile,
     },
+    blobClasses: {
+        desktop: "project__blob--wndd",
+        mobile: "project__blob-mobile--wndd"
+    },
     isReversed: true,
   },
   {
@@ -57,6 +61,10 @@ const projects = [
       desktop: WnBlobDesktop,
       mobile: WnBlobMobile,
     },
+    blobClasses: {
+        desktop: "project__blob--wn",
+        mobile: "project__blob-mobile--wn"
+    }
   },
   {
     title: 'High Fidelity Website',
@@ -69,6 +77,10 @@ const projects = [
     blobs: {
       desktop: HifiBlobDesktop,
       mobile: HifiBlobMobile,
+    },
+    blobClasses: {
+        desktop: "project__blob--hifi",
+        mobile: "project__blob-mobile--hifi"
     },
     isReversed: true,
   },
@@ -87,6 +99,16 @@ const projects = [
     blobs: {
       desktop: LofiReelsBlobDesktop,
       mobile: LofiReelsBlobMobile,
+    },
+    blobClasses: {
+        desktop: "project__blob--reels",
+        mobile: "project__blob-mobile--reels"
+    },
+    reelsClasses: {
+        0: "project__img--cassette",
+        1: "project__img--rp",
+        2: "project__img--tv",
+        3: "project__img-container--reels"
     },
     isReels: true,
   },
