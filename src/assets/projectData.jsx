@@ -26,6 +26,7 @@ const projects = [
     image: listainable,
     imageAlt: 'Screenshot of Listainable app',
     link: '#',
+    btn: "View Demo",
     blobs: {
       desktop: ListainableBlobDesktop,
       mobile: ListainableBlobMobile,
@@ -39,6 +40,7 @@ const projects = [
     image: wndd,
     imageAlt: "Screenshot of Woody Nelson's Direct Delivery website",
     link: 'https://shop.woodynelson.ca/',
+    btn: "View Site",
     blobs: {
       desktop: WnddBlobDesktop,
       mobile: WnddBlobMobile,
@@ -57,6 +59,7 @@ const projects = [
     image: wn,
     imageAlt: "Screenshot of Woody Nelson's brand website",
     link: 'https://www.woodynelson.ca/',
+    btn: "View Site",
     blobs: {
       desktop: WnBlobDesktop,
       mobile: WnBlobMobile,
@@ -74,6 +77,7 @@ const projects = [
     image: hifi,
     imageAlt: "Screenshot of High Fidelity Solventless brand website",
     link: 'https://www.highfidelitysolventless.com/',
+    btn: "View Site",
     blobs: {
       desktop: HifiBlobDesktop,
       mobile: HifiBlobMobile,
@@ -96,6 +100,7 @@ const projects = [
       { src: tv, alt: 'GIF if a TV with colorful waves and the LoFi logo' },
     ],
     link: 'https://www.instagram.com/reel/CbJNEWlPEAW/',
+    btn: "View More",
     blobs: {
       desktop: LofiReelsBlobDesktop,
       mobile: LofiReelsBlobMobile,

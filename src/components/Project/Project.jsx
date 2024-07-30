@@ -28,7 +28,7 @@ function Project({ project, isReversed, isReels }) {
         ))}
         {project.link && (
           <a className="btn" href={project.link} target="_blank" rel="noopener noreferrer">
-            View Demo
+            {project.btn}
           </a>
         )}
       </div>
