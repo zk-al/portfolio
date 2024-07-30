@@ -208,7 +208,7 @@ function Work() {
               </div>
             </div>
 
-            <div className="project__img-container">
+            <div className="project__img-container project__img-container--lofi">
               <img
                 className="project__img project__img--cassette"
                 src={cassette}
@@ -229,8 +229,8 @@ function Work() {
                 See Live Site
               </a>
             </div>
-            <LofiReelsBlobDesktop className="project__blob"/>
-            <LofiReelsBlobMobile className="project__blob-mobile"/>
+            <LofiReelsBlobDesktop className="project__blob project__blob--lofi"/>
+            <LofiReelsBlobMobile className="project__blob-mobile project__blob-mobile--lofi"/>
           </div>
         </div>
       </div>
