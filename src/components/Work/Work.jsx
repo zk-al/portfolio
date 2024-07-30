@@ -57,7 +57,7 @@ function Work() {
                 src={listainable}
                 alt="Screenshot of Listainable app"
               />
-              <a className="btn" href="#">
+              <a className="btn" href="#" target="_blank">
                 View Demo
               </a>
             </div>
@@ -96,7 +96,7 @@ function Work() {
                 src={wndd}
                 alt="Screenshot of Woody Nelson's Direct Delivery website"
               />
-              <a className="btn" href="#">
+              <a className="btn" href="https://shop.woodynelson.ca/" target="_blank">
                 See Live Site
               </a>
             </div>
@@ -134,9 +134,9 @@ function Work() {
               <img
                 className="project__img"
                 src={wn}
-                alt="Screenshot of Listainable app"
+                alt="Screenshot of Woody Nelson's brand website"
               />
-              <a className="btn" href="#">
+              <a className="btn" href="https://www.woodynelson.ca/" target="_blank">
                 See Live Site
               </a>
             </div>
@@ -174,9 +174,9 @@ function Work() {
               <img
                 className="project__img"
                 src={hifi}
-                alt="Screenshot of Listainable app"
+                alt="Screenshot of High Fidelity Solventless brand website"
               />
-              <a className="btn" href="#">
+              <a className="btn" href="https://www.highfidelitysolventless.com/" target="_blank">
                 See Live Site
               </a>
             </div>
@@ -225,8 +225,8 @@ function Work() {
                 src={tv}
                 alt="GIF if a TV with colorful waves and the LoFi logo"
               />
-              <a className="btn" href="#">
-                See Live Site
+              <a className="btn" href="https://www.instagram.com/reel/CbJNEWlPEAW/" target="_blank">
+                See Reels
               </a>
             </div>
             <LofiReelsBlobDesktop className="project__blob project__blob--lofi"/>
