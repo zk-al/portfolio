@@ -90,7 +90,7 @@ const projects = [
   },
   {
     title: 'LoFi Instagram Reels',
-    summary: 'While working for Woody Nelson I was managed Social Media for them and their subsidiaries, LoFi being one of them. I was tasked with creating Reels that encapsulated the brand and connected with both the LoFi music and art audience, as well as the CBD consumers.',
+    summary: 'While working for Woody Nelson I managed Social Media for them and their subsidiaries, LoFi being one of them. I was tasked with creating Reels that encapsulated the brand and connected with both the LoFi music and art audience, as well as the CBD consumers.',
     role: 'Social Media Manager, Animator',
     tools: 'After Effects, Illustrator, Loomly, Buffer',
     image: cassette,
