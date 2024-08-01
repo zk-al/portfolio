@@ -25,7 +25,7 @@ const projects = [
     tools: 'React, Sass, Express, MySQL, Node.js, Knex.js, Express, Fuse.js, Axios, Git',
     image: listainable,
     imageAlt: 'Screenshot of Listainable app',
-    link: '#',
+    link: 'https://app.supademo.com/demo/clzah1r6x4wdyz9kd7fxswk2d',
     btn: "View Demo",
     blobs: {
       desktop: ListainableBlobDesktop,
