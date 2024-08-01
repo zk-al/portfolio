@@ -20,7 +20,7 @@ import { ReactComponent as LofiReelsBlobMobile } from "./svg/lofi-reels-blob-mob
 const projects = [
   {
     title: 'Listainable',
-    summary: 'A grocery list app to enable consumers to shop more sustainably. Listainable uses a REST API, Express, Node.js, MySQL and Knex.js for CRUD operations and refining data from the OpenFoodFacts API. Users are able to search for items and add them a their list; they are also given an average eco-score based on their lists content.',
+    summary: 'A grocery list app that enables consumers to shop more sustainably. Listainable uses a REST API, Express, Node.js, MySQL and Knex.js for CRUD operations and refining data from the OpenFoodFacts API. Users are able to search for items and add them to their list. They are also given an average eco-score based on their list content.',
     role: 'Web Developer',
     tools: 'React, Sass, Express, MySQL, Node.js, Knex.js, Express, Fuse.js, Axios, Git',
     image: listainable,
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     title: 'Woody Nelson Direct Delivery',
-    summary: 'As part of building our brand and expanding our sales channels we were tasked with creating a direct delivery website for wholesalers to buy our products from across Canada. I was tasked with leading this project. I worked with our Senior Designer and Graphic Designer to layout the website and from there I led the building and customization on Shopify.',
+    summary: 'As part of building our brand and expanding our sales channels we were tasked with creating a direct delivery website for wholesalers to buy our products from across Canada. I was tasked with leading this project, working alongside our Senior Designer and Graphic Designer to layout the website. From there, I led the building and customization on Shopify.',
     role: 'Web Designer and Front-End Developer',
     tools: 'Shopify, Figma, Illustrator, Photoshop',
     image: wndd,
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     title: 'Woody Nelson Website',
-    summary: 'Woody Nelson is a Licensed Producer of Cannabis based in Nelson BC. As part of my time as Junior Marketer I was tasked to build a website for our brand launch. I worked in collaboration with the Senior design and Illustrator to create the layouts in Figma and built the website in Webflow myself.',
+    summary: 'Woody Nelson is a Licensed Producer of Cannabis based in Nelson BC. As part of my time as Digital Marketing Specialist I was tasked to build a website for our brand launch. I worked in collaboration with the Senior designer and Graphic Designer to create the layouts in Figma, and built the website in Webflow myself.',
     role: 'Webflow Developer',
     tools: 'Figma, Webflow, Illustrator, Photoshop, Adobe After Effects',
     image: wn,
@@ -71,7 +71,7 @@ const projects = [
   },
   {
     title: 'High Fidelity Website',
-    summary: 'High Fidelity Solventless is a licensed producer of solventless cannabis extracts. As they refined their product they needed a website for their brand launch. I worked with our Senior Designer and graphic designer on layout, and built the website on Webflow myself.',
+    summary: 'High Fidelity Solventless is a Licensed Producer of solventless cannabis extracts. As they refined their product they needed a website for their brand launch. I worked with our Senior Designer and Graphic Designer on layouts in Figma, and built the website on Webflow myself.',
     role: 'Webflow Developer',
     tools: 'Figma, Webflow, Illustrator, Photoshop, Adobe After Effects',
     image: hifi,
@@ -90,7 +90,7 @@ const projects = [
   },
   {
     title: 'LoFi Instagram Reels',
-    summary: 'While working for Woody Nelson I was Social Media manager for them and their subsidiaries, LoFi being one of them. I was tasked with creating Reels that encapsulated the brand, and connected with both the LoFi music and art audience and the CBD consumers.',
+    summary: 'While working for Woody Nelson I was managed Social Media for them and their subsidiaries, LoFi being one of them. I was tasked with creating Reels that encapsulated the brand and connected with both the LoFi music and art audience, as well as the CBD consumers.',
     role: 'Social Media Manager, Animator',
     tools: 'After Effects, Illustrator, Loomly, Buffer',
     image: cassette,
