@@ -20,7 +20,7 @@ import { ReactComponent as LofiReelsBlobMobile } from "./svg/lofi-reels-blob-mob
 const projects = [
   {
     title: 'Listainable',
-    summary: 'A grocery list app that enables consumers to shop more sustainably. Listainable uses a REST API, Express, Node.js, MySQL and Knex.js for CRUD operations and refining data from the OpenFoodFacts API. Users are able to search for items and add them to their list. They are also given an average eco-score based on their list content.',
+    summary: 'A grocery list app that enables consumers to shop more sustainably. Listainable uses a REST API, Express, Node.js, MySQL and Knex.js for CRUD operations and refining data from the OpenFoodFacts API. Users are able to search for items and add them to their list. They are also given an average Eco Score based on their list content.',
     role: 'Web Developer',
     tools: 'React, Sass, Express, MySQL, Node.js, Knex.js, Express, Fuse.js, Axios, Git',
     image: listainable,

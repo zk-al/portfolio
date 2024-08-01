@@ -6,10 +6,10 @@ function Footer() {
   return (
     <footer className="footer" id="contact">
       <div className="footer__container">
-        <h2>Wana chat?</h2>
+        <h2>Wanna chat?</h2>
         <div className="footer__contact">
           <a href="mailto:lamarche.zack@gmail.com" className="footer__subhead footer__subhead--contact" target="_blank">
-            Email me at lamarche.zack@gmail.com
+            e-mail me at lamarche.zack@gmail.com
           </a>
           <svg
             className="footer__blob"
