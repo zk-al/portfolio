@@ -117,6 +117,12 @@ a {
             color: $s-dark;
         }
     }
+
+    &--mobile {
+        margin: 0;
+        padding: $padding-m 0;
+        width: 100%;
+    }
 }
 
 .btn {

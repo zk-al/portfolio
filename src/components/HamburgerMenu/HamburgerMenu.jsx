@@ -17,17 +17,17 @@ function HamburgerMenu() {
       <nav className={`hamburger__nav ${open ? 'open' : ''}`}>
         <ul className="hamburger__list">
           <li className="hamburger__item">
-            <a className="anchor-link" href="#about">
+            <a className="anchor-link anchor-link--mobile" href="#about">
               About
             </a>
           </li>
           <li className="hamburger__item">
-            <a className="anchor-link" href="#work">
+            <a className="anchor-link anchor-link--mobile" href="#work">
               Work
             </a>
           </li>
           <li className="hamburger__item">
-            <a className="anchor-link" href="#contact">
+            <a className="anchor-link anchor-link--mobile" href="#contact">
               Contact
             </a>
           </li>
