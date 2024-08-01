@@ -10,7 +10,7 @@ function About() {
           <h2>Hey! I'm Zack 👋</h2>
           <p>
             My goal with Development and Design is to make to world a better
-            place. Sometimes that is complex problem solving and sometimes its
+            place. Sometimes, that's complex problem-solving and sometimes it's
             bringing a little more fun into the world.
           </p>
         </div>
