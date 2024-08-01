@@ -1,0 +1,71 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.about {
+  margin-top: -4rem;
+  padding: $padding-m;
+  background-color: $p-light;
+
+  &__container {
+    @include flex();
+    flex-direction: column;
+    gap: $padding-m;
+    position: relative;
+    z-index: 10;
+
+    @include tablet {
+      flex-direction: row;
+      padding: $padding-d $padding-d calc($padding-d * 4) $padding-d;
+    }
+
+    @include desktop {
+      @include desktop-container;
+    }
+  }
+
+  &__text {
+    position: relative;
+    z-index: 2;
+
+    @include tablet {
+      padding-left: $padding-d;
+    }
+
+    @include desktop {
+      padding: $padding-d;
+    }
+  }
+
+  &__img-wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+
+    @include tablet {
+      position: static;
+    }
+  }
+
+  &__profile-img {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: rotate(-90deg);
+    height: 100%;
+    width: 100%;
+
+    @include tablet {
+      top: 10%;
+      z-index: 0;
+      transform: none;
+      height: 80%;
+    }
+  }
+}

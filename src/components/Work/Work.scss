@@ -1,0 +1,41 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.work {
+  padding: $padding-m $padding-m calc($padding-m * 14);
+
+  @include tablet {
+    padding: $padding-d $padding-d calc($padding-d * 8);
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__container {
+    @include flex();
+    flex-direction: column;
+    gap: calc($padding-d * 4);
+
+    @include tablet {
+      gap: calc($padding-d * 6);
+    }
+
+    @include desktop {
+      @include desktop-container;
+    }
+  }
+
+  &__project-container {
+    @include flex();
+    flex-direction: column;
+    gap: calc($padding-d * 8);
+
+    @include tablet {
+      gap: calc($padding-d * 14);
+    }
+  }
+}
+
+

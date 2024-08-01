@@ -51,23 +51,23 @@
 
 @mixin copy-lrg() {
     font-family: "Petrona";
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     line-height: 1.875rem;
     font-weight: 400;
 }
 
 @mixin copy() {
     font-family: "Petrona";
-    font-size: 0.875rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.75rem;
     font-weight: 400;
 }
 
 /* -------------------------------- MOBILE ------------------------------- */
 
 @mixin title-m() {
-    font-size: 2.188rem;
-    line-height: 2.813rem;
+    font-size: 3rem;
+    line-height: 3.625rem;
     font-weight: 800;
 }
 
@@ -88,8 +88,8 @@
 /* --------------------------------- DESKTOP -------------------------------- */
 
 @mixin title-d() {
-    font-size: 2.813rem;
-    line-height: 3.438rem;
+    font-size: 3.5rem;
+    line-height: 4.125rem;
     font-weight: 800;
 }
 

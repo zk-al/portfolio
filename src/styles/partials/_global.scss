@@ -35,6 +35,7 @@
 
 h1 {
     @include title-m();
+    margin: $padding-m 0;
 
     @include tablet {
         @include title-d;
@@ -43,6 +44,7 @@ h1 {
 
 h2 {
     @include subheader-lrg-m();
+    margin: $padding-m 0;
 
     @include tablet {
         @include subheader-lrg-d;
@@ -51,17 +53,20 @@ h2 {
 
 h3 {
     @include subheader-med-m();
+    margin: $padding-d 0;
 
     @include tablet {
         @include subheader-med-d();
     }
 }
-h3 {
+h4 {
     @include subheader-sm();
+    margin: $padding-m 0 calc($padding-m / 2) 0 ;
 }
 
 p {
     @include copy();
+    margin: 0;
 }
 
 .copy-lrg {
@@ -74,6 +79,7 @@ p {
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -81,8 +87,8 @@ body {
     margin: 0;
 }
 
-.mobile {
-    display: none;
+img {
+    max-width: 100%;
 }
 
 ul {
@@ -100,6 +106,29 @@ a {
     color: black;
 }
 
-.btn {
+.anchor-link {
+    margin: $padding-m 0;
 
+    @include desktop {
+        margin: 0 $padding-d;
+        transition: $transition;
+
+        &:hover {
+            color: $s-dark;
+        }
+    }
+}
+
+.btn {
+    @include flex();
+    background-color: $p-light;
+    transition: $transition;
+    padding: calc($padding-m / 1.5);
+    width: 100%;
+    max-width: 12.5rem;
+    border-radius: 0.625rem;
+
+    &:hover {
+        background-color: $s-dark;
+    }
 }

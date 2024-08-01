@@ -1,0 +1,80 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.footer {
+  background-color: $p-light;
+  padding: $padding-m;
+  text-align: center;
+
+  @include tablet {
+    padding: $padding-d;
+  }
+
+  &__container {
+    @include desktop-container();
+    @include flex();
+    flex-direction: column;
+    gap: $padding-m;
+
+    @include tablet {
+      gap: $padding-d;
+    }
+  }
+
+  &__contact {
+    position: relative;
+    width: 100%;
+  }
+
+  &__subhead {
+    @include subheader-sm();
+    font-family: "Exo";
+
+    &--contact {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 3rem;
+
+      @include tablet {
+        height: 2rem;
+      }
+    }
+  }
+
+  &__blob {
+    height: 13rem;
+    width: 100%;
+
+    @include tablet {
+      height: 10rem;
+    }
+  }
+
+  &__socials {
+    @include flex();
+    flex-direction: column;
+    gap: $padding-m;
+
+    @include tablet {
+      gap: $padding-d;
+    }
+  }
+
+  &__icons-container {
+    @include flex();
+    gap: $padding-m;
+  }
+
+  &__icons {
+    transition: $transition;
+
+    &:hover {
+      color: $s-dark;
+    }
+  }
+}
