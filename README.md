@@ -21,7 +21,7 @@ BCIT/Emily Carr  |  Communication Design Certificate
 
 ## Projects 
 
-### Web Development | Brainstation Capstone - Listainable
+### Web Development | <a href="https://youtu.be/43BKd7Y8ozw?si=gUva-0PIPIWzttNU">Brainstation Capstone - Listainable</a>
 ##### JUNE 2024, SUSTAINABILITY FOCUSED GROCERY LIST APP
 - Create a REST API using Express, Node.js, MySQL and Knex.js for CRUD operations and  refining data from the OpenFoodFacts API.
 - Create a React Front-End with Sass styling and BEM naming conventions.
